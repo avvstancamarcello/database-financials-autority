@@ -696,11 +696,11 @@
       "name": "Magyar Nemzeti Bank (Central Bank of Hungary)",
       "abbreviation": "MNB",
       "homepage": "https://www.mnb.hu/",
-      "fraudReportLink": "https://www.mnb.hu/en/consumer-protection/making-a-complaint",
-      "authorityEmail": "info@mnb.hu",
+      "fraudReportLink": "https://www.mnb.hu/fogyasztovedelem/elerhetosegek",
+      "authorityEmail": "ugyfelszolgalat@mnb.hu",
       "social_links": {}
     },
-    "notes": "World Investor Week Coordinator: MNB Team."
+    "notes": "World Investor Week Coordinator: MNB Team. Pagina contatti consumatori: https://www.mnb.hu/fogyasztovedelem/elerhetosegek - Email ufficiale consumatori: ugyfelszolgalat@mnb.hu - Avvisi investitori: https://www.mnb.hu/felugyelet/piacfelugyelet/befektetoi-figyelmeztetesek"
   },
   "Iceland": {
     "country_name": "Iceland",
@@ -1341,11 +1341,17 @@
       "name": "Financial Supervisory Authority",
       "abbreviation": "ASF",
       "homepage": "https://asfromania.ro/",
-      "fraudReportLink": "https://asfromania.ro/ro/petitii",
+      "fraudReportLink": "https://asfromania.ro/ro/a/2039/informatii-petitii",
       "authorityEmail": "office@asfromania.ro",
-      "social_links": {}
+      "social_links": {
+        "facebook": "https://www.facebook.com/asf.romania?checkpoint_src=any",
+        "linkedin": "https://www.linkedin.com/company/autoritatea-de-supraveghere-financiar%C4%83/?originalSubdomain=ro",
+        "instagram": "https://www.instagram.com/autoritateadesupraveghere_fin/",
+        "tiktok": "https://www.tiktok.com/@asf_romania",
+        "twitter": "https://twitter.com/asf_romania"
+      }
     },
-    "notes": "World Investor Week Coordinator: ASF Team."
+    "notes": "World Investor Week Coordinator: ASF Team. Risorse protezione consumatori: https://asfromania.ro/ro/a/2776/a.s.f.-avertizeaza-consumatorii-cu-privire-la-existenta-unor-actiuni-din-partea-unor-persoane-fizice-neautorizate-care-pretind-ca-presteaza-servicii-si-activitati-de-investitii,-conform-prevederilor-legii-nr.-126/2018 - Rapporto mercati finanziari 2025: https://asfromania.ro/uploads/articole/attachments/69491c5a8dcea135792448.pdf - Supervisione e legislazione: https://asfromania.ro/ro/c/20/supraveghere - Comunicati stampa: https://asfromania.ro/ro/c/34/comunicate-si-informari-de-presa - Registro imprese finanziarie autorizzate: https://www.asfromania.ro/app.php/ro/a/1705/registrul-instrumentelor-%C8%99i-investi%C8%9Biilor-financiare - Form denuncia entità non autorizzate: https://asfromania.ro/ro/forms/entitatineautorizate - Email denunce entità non autorizzate: Entitati.Neautorizate@asfromania.ro"
   },
   "Saudi Arabia": {
     "country_name": "Saudi Arabia",
@@ -1465,11 +1471,15 @@
       "name": "Financial Services Authority",
       "abbreviation": "FSA",
       "homepage": "https://svgfsa.com/",
-      "fraudReportLink": "https://svgfsa.com/contact-us/",
+      "fraudReportLink": "https://fsasvg.com/file-complaint/",
       "authorityEmail": "info@svgfsa.com",
-      "social_links": {}
+      "social_links": {
+        "facebook": "https://www.facebook.com/people/SVG-Financial-Services-Authority/61575001776057/",
+        "linkedin": "https://www.linkedin.com/company/svg-financial-services-authority-fsa/?viewAsMember=true",
+        "instagram": "https://www.instagram.com/svgfsa/"
+      }
     },
-    "notes": "Parte della Eastern Caribbean Currency Union (ECSRC)."
+    "notes": "Parte della Eastern Caribbean Currency Union (ECSRC). Form reclami: https://fsasvg.com/file-complaint/ - Ricerca entità registrate: https://fsasvg.com/entity-name-search/ - Avvisi investitori/Alert frodi: https://fsasvg.com/investor-alerts/ - Tel: (784) 456-2577 / (784) 457-2328 / (784) 485-6031"
   },
   "Sweden": {
     "country_name": "Sweden",
