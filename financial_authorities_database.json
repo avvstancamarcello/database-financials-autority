@@ -758,9 +758,11 @@
       "homepage": "https://www.centralbank.ie/",
       "fraudReportLink": "https://www.centralbank.ie/consumer-hub/complaints",
       "authorityEmail": "enquiries@centralbank.ie",
-      "social_links": {}
+      "social_links": {
+        "consumer_education": "https://www.centralbank.ie/consumer-hub/explainers/how-can-i-avoid-a-financial-services-scam"
+      }
     },
-    "notes": "World Investor Week Coordinator: CBI Team."
+    "notes": "Consumer Hub dedicato: guida esemplare 'How can I avoid a financial services scam' (https://www.centralbank.ie/consumer-hub/explainers/how-can-i-avoid-a-financial-services-scam) - educazione finanziaria per riconoscimento truffe. World Investor Week Coordinator: CBI Team."
   },
   "Isle of Man": {
     "country_name": "Isle of Man",
