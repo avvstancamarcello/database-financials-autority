@@ -1645,6 +1645,24 @@
     },
     "notes": "World Investor Week Coordinator: Verónica Villete."
   },
+  "Uzbekistan": {
+    "country_name": "Uzbekistan",
+    "flag": "🇺🇿",
+    "isEU": false,
+    "protectionLevel": "Medio",
+    "financial_authority": {
+      "name": "Central Bank of the Republic of Uzbekistan",
+      "abbreviation": "CBU",
+      "homepage": "https://cbu.uz/en/",
+      "fraudReportLink": "https://cbu.uz/en/press_center/news/3164614/",
+      "authorityEmail": "info@cbu.uz",
+      "social_links": {
+        "app": "https://cbu.uz/en/services/app/",
+        "youtube_educational": "https://youtu.be/L3gVhN4heK8"
+      }
+    },
+    "notes": "App Ufficiale CBU disponibile per download. Video educazione finanziaria antitruffa disponibile su YouTube. Sistema di vigilanza bancaria moderna con focus su protezione consumatori e alfabetizzazione finanziaria digitale."
+  },
   "Zambia": {
     "country_name": "Zambia",
     "flag": "🇿🇲",
