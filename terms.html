@@ -3,628 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Database Autorità Finanziarie</title>
-    <meta name="description" content="Privacy Policy del Database Internazionale delle Autorità Finanziarie. Informativa sulla protezione dei dati personali.">
+    <title>Terms of Service - Database Autorità Finanziarie</title>
+    <meta name="description" content="Termini e Condizioni d'Uso del Database Internazionale delle Autorità Finanziarie.">
     <meta name="author" content="Avvocato Marcello Stanca">
     <meta name="robots" content="index, follow">
-    
-    <!-- PWA -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#667eea">
-    
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); 
-            color: #333; 
-            line-height: 1.8; 
-            min-height: 100vh; 
-            padding: 20px; 
-        }
-        .container { 
-            max-width: 900px; 
-            margin: 0 auto; 
-            background: white; 
-            border-radius: 15px; 
-            box-shadow: 0 10px 40px rgba(0,0,0,0.3); 
-            overflow: hidden; 
-        }
-        
-        /* Navigation */
-        nav {
-            background: linear-gradient(135deg, #1e293b 0%, #334155 100%); 
-            padding: 1rem 0; 
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-        nav .nav-content {
-            max-width: 1200px; 
-            margin: 0 auto; 
-            display: flex; 
-            gap: 1.5rem; 
-            justify-content: center; 
-            align-items: center; 
-            flex-wrap: wrap; 
-            padding: 0 1rem;
-        }
-        nav a {
-            color: white; 
-            text-decoration: none; 
-            font-weight: 500; 
-            font-size: 1.05rem; 
-            padding: 0.5rem 1.5rem; 
-            background: rgba(255,255,255,0.05); 
-            border-radius: 8px; 
-            transition: all 0.3s ease;
-        }
-        nav a:hover {
-            background: rgba(255,255,255,0.15);
-        }
-        nav a.active {
-            background: rgba(255,255,255,0.15);
-            border: 2px solid rgba(255,255,255,0.2);
-        }
-        
-        header { 
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-            color: white; 
-            padding: 40px 30px; 
-            text-align: center; 
-        }
-        h1 { 
-            font-size: 2.2em; 
-            margin-bottom: 10px; 
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2); 
-        }
-        .subtitle { 
-            font-size: 1.1em; 
-            opacity: 0.95; 
-        }
-        
-        .content { 
-            padding: 40px 30px; 
-        }
-        h2 { 
-            color: #667eea; 
-            margin: 30px 0 15px 0; 
-            font-size: 1.6em; 
-            border-bottom: 2px solid #e0e0e0; 
-            padding-bottom: 10px; 
-        }
-        h3 { 
-            color: #764ba2; 
-            margin: 20px 0 10px 0; 
-            font-size: 1.3em; 
-        }
-        p { 
-            margin-bottom: 15px; 
-            text-align: justify; 
-        }
-        ul { 
-            margin: 15px 0 15px 30px; 
-        }
-        li { 
-            margin-bottom: 10px; 
-        }
-        .highlight { 
-            background: #f0f4ff; 
-            padding: 20px; 
-            border-left: 4px solid #667eea; 
-            margin: 20px 0; 
-            border-radius: 5px; 
-        }
-        .important { 
-            color: #16a34a; 
-            font-weight: bold; 
-        }
-        a { 
-            color: #667eea; 
-            text-decoration: none; 
-        }
-        a:hover { 
-            text-decoration: underline; 
-        }
-        
-        footer { 
-            background: #2c3e50; 
-            color: white; 
-            text-align: center; 
-            padding: 30px; 
-        }
-        footer p { 
-            margin: 10px 0; 
-            text-align: center; 
-        }
-        
-        .language-selector {
-            text-align: center;
-            margin: 20px 0;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 10px;
-        }
-        .lang-btn {
-            background: #667eea;
-            color: white;
-            border: none;
-            padding: 8px 15px;
-            margin: 0 5px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
-        .lang-btn:hover {
-            background: #764ba2;
-            transform: translateY(-2px);
-        }
-        .lang-btn.active {
-            background: #764ba2;
-        }
-        
-        @media (max-width: 768px) { 
-            h1 { font-size: 1.8em; } 
-            .content { padding: 25px 20px; }
-            p { text-align: left; }
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css">
 </head>
-<body>
+<body style="font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: #333; line-height: 1.8; min-height: 100vh; padding: 20px; margin: 0;">
     <!-- Main Navigation -->
-    <nav>
-        <div class="nav-content">
-            <a href="index.html">🏠 Database Autorità</a>
-            <a href="odissea.html">🌊 Odissea Digitale</a>
-            <a href="referenze.html">📜 Referenze Istituzionali</a>
-            <a href="privacy.html" class="active">🔒 Privacy Policy</a>
-            <a href="terms.html">📋 Terms of Service</a>
+    <nav style="background: linear-gradient(135deg, #1e293b 0%, #334155 100%); padding: 1rem 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); position: sticky; top: 0; z-index: 999; margin: -20px -20px 20px -20px;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; gap: 1.5rem; justify-content: center; align-items: center; flex-wrap: wrap; padding: 0 1rem;">
+            <a href="index.html" style="color: white; text-decoration: none; font-weight: 500; font-size: 1.05rem; padding: 0.5rem 1.5rem; background: rgba(255,255,255,0.05); border-radius: 8px; transition: all 0.3s ease;">🏠 Database Autorità</a>
+            <a href="odissea.html" style="color: white; text-decoration: none; font-weight: 500; font-size: 1.05rem; padding: 0.5rem 1.5rem; background: rgba(255,255,255,0.05); border-radius: 8px; transition: all 0.3s ease;">🌊 Odissea Digitale</a>
+            <a href="referenze.html" style="color: white; text-decoration: none; font-weight: 500; font-size: 1.05rem; padding: 0.5rem 1.5rem; background: rgba(255,255,255,0.05); border-radius: 8px; transition: all 0.3s ease;">📜 Referenze Istituzionali</a>
+            <a href="privacy.html" style="color: white; text-decoration: none; font-weight: 500; font-size: 1.05rem; padding: 0.5rem 1.5rem; background: rgba(255,255,255,0.05); border-radius: 8px; transition: all 0.3s ease;">🔒 Privacy Policy</a>
+            <a href="terms.html" style="color: white; text-decoration: none; font-weight: bold; font-size: 1.05rem; padding: 0.5rem 1.5rem; background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.2); border-radius: 8px; transition: all 0.3s ease;">📋 Terms of Service</a>
         </div>
     </nav>
 
-    <div class="container">
-        <header>
-            <h1 data-i18n="title">🔒 Privacy Policy</h1>
-            <p class="subtitle" data-i18n="subtitle">Informativa sulla protezione dei dati personali</p>
-            <p style="margin-top: 10px; font-size: 0.9em;" data-i18n="lastUpdate">Ultimo aggiornamento: 6 Gennaio 2026</p>
+    <div style="max-width: 900px; margin: 0 auto; background: white; border-radius: 15px; box-shadow: 0 10px 40px rgba(0,0,0,0.3); overflow: hidden;">
+        <header style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 30px; text-align: center;">
+            <h1 style="font-size: 2.2em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">📋 Terms of Service</h1>
+            <p style="font-size: 1.1em; opacity: 0.95;">Termini e Condizioni d'Uso</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">Ultimo aggiornamento: 6 Gennaio 2026</p>
         </header>
 
-        <div class="language-selector">
-            <button class="lang-btn active" onclick="changeLanguage('it')">🇮🇹 Italiano</button>
-            <button class="lang-btn" onclick="changeLanguage('en')">🇬🇧 English</button>
-            <button class="lang-btn" onclick="changeLanguage('fr')">🇫🇷 Français</button>
-            <button class="lang-btn" onclick="changeLanguage('de')">🇩🇪 Deutsch</button>
-            <button class="lang-btn" onclick="changeLanguage('es')">🇪🇸 Español</button>
-        </div>
+        <div style="padding: 40px 30px;">
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">1. Accettazione dei Termini</h2>
+            <p style="margin-bottom: 15px;">
+                Utilizzando il Database Internazionale delle Autorità Finanziarie (di seguito "l'Applicazione"), accetti di essere vincolato da questi Termini di Servizio. Se non accetti questi termini, non utilizzare l'Applicazione.
+            </p>
 
-        <div class="content">
-            <div class="highlight">
-                <p class="important" data-i18n="noDataCollection">
-                    ✅ QUESTA APPLICAZIONE NON RACCOGLIE, NON MEMORIZZA E NON CONDIVIDE ALCUN DATO PERSONALE DEGLI UTENTI
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">2. Descrizione del Servizio</h2>
+            <p style="margin-bottom: 15px;">
+                L'Applicazione è un database educativo e informativo che fornisce informazioni di contatto e collegamenti alle autorità finanziarie di vigilanza di 108 paesi nel mondo. Il servizio è offerto gratuitamente a scopo informativo ed educativo.
+            </p>
+
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">3. Proprietà e Gestione</h2>
+            <p style="margin-bottom: 15px;">
+                L'Applicazione è di proprietà e gestita da <strong>Avvocato Marcello Stanca</strong>, con sede a Firenze, Italia. Tutti i diritti di proprietà intellettuale sul contenuto, design e struttura dell'Applicazione sono riservati.
+            </p>
+
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">4. Uso Consentito</h2>
+            <h3 style="color: #764ba2; margin: 20px 0 10px 0; font-size: 1.3em;">Usi Consentiti:</h3>
+            <ul style="margin: 15px 0 15px 30px;">
+                <li style="margin-bottom: 10px;">Consultare le informazioni per uso personale e educativo</li>
+                <li style="margin-bottom: 10px;">Verificare la legittimità di autorità finanziarie</li>
+                <li style="margin-bottom: 10px;">Contattare le autorità competenti per segnalazioni</li>
+                <li style="margin-bottom: 10px;">Condividere link all'Applicazione (non il contenuto copiato)</li>
+            </ul>
+
+            <h3 style="color: #764ba2; margin: 20px 0 10px 0; font-size: 1.3em;">Usi Proibiti:</h3>
+            <ul style="margin: 15px 0 15px 30px;">
+                <li style="margin-bottom: 10px; color: #dc2626; font-weight: bold;">Uso commerciale senza autorizzazione scritta</li>
+                <li style="margin-bottom: 10px; color: #dc2626; font-weight: bold;">Copia, riproduzione o distribuzione del database</li>
+                <li style="margin-bottom: 10px; color: #dc2626; font-weight: bold;">Web scraping, data mining o raccolta automatizzata</li>
+                <li style="margin-bottom: 10px; color: #dc2626; font-weight: bold;">Modifica, traduzione o opere derivate non autorizzate</li>
+                <li style="margin-bottom: 10px; color: #dc2626; font-weight: bold;">Reverse engineering o decompilazione</li>
+                <li style="margin-bottom: 10px; color: #dc2626; font-weight: bold;">Attività dannose, illegali o fraudolente</li>
+            </ul>
+
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">5. Proprietà Intellettuale e Copyright</h2>
+            <p style="margin-bottom: 15px;">
+                Tutto il contenuto dell'Applicazione, inclusi testi, database, grafica, loghi e codice software, è protetto da copyright © 2026 Avvocato Marcello Stanca. È vietata la riproduzione non autorizzata.
+            </p>
+            <div style="background: #f0f4ff; padding: 20px; border-left: 4px solid #667eea; margin: 20px 0; border-radius: 5px;">
+                <p style="text-align: center;">
+                    <strong>© 2026 Avvocato Marcello Stanca - Firenze, Italia</strong><br>
+                    Tutti i diritti riservati. Uso non autorizzato vietato.
                 </p>
             </div>
 
-            <h2 data-i18n="h2_intro">1. Introduzione</h2>
-            <p data-i18n="p_intro">
-                Il Database Internazionale delle Autorità Finanziarie è un'applicazione web educativa e informativa creata da <strong>Avvocato Marcello Stanca</strong>, con sede a Firenze, Italia. Questa privacy policy spiega come vengono trattati i dati degli utenti che visitano questa applicazione.
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">6. Disclaimer e Limitazione di Responsabilità</h2>
+            <h3 style="color: #764ba2; margin: 20px 0 10px 0; font-size: 1.3em;">Natura Informativa:</h3>
+            <p style="margin-bottom: 15px;">
+                Le informazioni fornite dall'Applicazione sono solo a scopo informativo ed educativo. <strong style="color: #dc2626;">NON costituiscono consulenza legale, finanziaria o professionale</strong> di alcun tipo.
             </p>
 
-            <h2 data-i18n="h2_data">2. Dati Personali Raccolti</h2>
-            <p data-i18n="p_data">
-                <strong>NESSUN DATO PERSONALE VIENE RACCOLTO.</strong> Questa applicazione è progettata per funzionare completamente senza richiedere, memorizzare o trasmettere alcuna informazione personale identificabile degli utenti.
+            <h3 style="color: #764ba2; margin: 20px 0 10px 0; font-size: 1.3em;">Accuratezza delle Informazioni:</h3>
+            <p style="margin-bottom: 15px;">
+                Pur facendo ogni sforzo per mantenere le informazioni aggiornate e accurate, non garantiamo la completezza, accuratezza o aggiornamento delle informazioni fornite. Le autorità finanziarie possono modificare i loro contatti, siti web o procedure senza preavviso.
             </p>
-            
-            <h3 data-i18n="h3_notcollected">Cosa NON raccogliamo:</h3>
-            <ul>
-                <li data-i18n="li_noname">Nome, cognome o informazioni identificative</li>
-                <li data-i18n="li_noemail">Indirizzi email o numeri di telefono</li>
-                <li data-i18n="li_noaddress">Indirizzi fisici o di residenza</li>
-                <li data-i18n="li_nofinancial">Dati finanziari o bancari</li>
-                <li data-i18n="li_noip">Indirizzi IP o dati di geolocalizzazione</li>
-                <li data-i18n="li_nocookies">Cookie di tracciamento o profilazione</li>
-                <li data-i18n="li_noanalytics">Dati di navigazione tramite strumenti di analytics</li>
+
+            <h3 style="color: #764ba2; margin: 20px 0 10px 0; font-size: 1.3em;">Limitazione di Responsabilità:</h3>
+            <p style="margin-bottom: 15px;">L'Applicazione è fornita "così com'è" senza garanzie di alcun tipo. Non siamo responsabili per:</p>
+            <ul style="margin: 15px 0 15px 30px;">
+                <li style="margin-bottom: 10px;">Errori o omissioni nelle informazioni</li>
+                <li style="margin-bottom: 10px;">Contenuto di siti web di terze parti collegati</li>
+                <li style="margin-bottom: 10px;">Decisioni prese sulla base delle informazioni fornite</li>
+                <li style="margin-bottom: 10px;">Danni diretti, indiretti o consequenziali derivanti dall'uso</li>
+                <li style="margin-bottom: 10px;">Interruzioni del servizio o indisponibilità</li>
             </ul>
 
-            <h2 data-i18n="h2_tech">3. Dati Tecnici</h2>
-            <p data-i18n="p_tech">
-                L'applicazione utilizza tecnologie standard del web come HTML, CSS e JavaScript. Tutto il codice viene eseguito localmente nel browser dell'utente. Le uniche interazioni con server esterni sono:
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">7. Collegamenti a Siti di Terze Parti</h2>
+            <p style="margin-bottom: 15px;">
+                L'Applicazione contiene collegamenti ai siti web ufficiali delle autorità finanziarie. Non siamo responsabili per il contenuto, le politiche sulla privacy o le pratiche di questi siti esterni. L'accesso a siti di terze parti è a tuo rischio.
             </p>
-            <ul>
-                <li data-i18n="li_github">Hosting su <strong>GitHub Pages</strong> (https://pages.github.com) - GitHub potrebbe raccogliere dati tecnici standard come descritto nella loro <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank">Privacy Policy</a></li>
-                <li data-i18n="li_cdn">Caricamento di librerie CSS esterne (flag-icons, leaflet) da CDN pubblici</li>
+
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">8. Nessuna Consulenza Professionale</h2>
+            <p style="margin-bottom: 15px;">Le informazioni fornite NON costituiscono e non devono essere interpretate come:</p>
+            <ul style="margin: 15px 0 15px 30px;">
+                <li style="margin-bottom: 10px;">Consulenza legale</li>
+                <li style="margin-bottom: 10px;">Consulenza finanziaria o di investimento</li>
+                <li style="margin-bottom: 10px;">Consulenza fiscale</li>
+                <li style="margin-bottom: 10px;">Qualsiasi forma di consulenza professionale</li>
             </ul>
+            <p style="margin-bottom: 15px;">Per questioni specifiche, consulta sempre un professionista qualificato nella tua giurisdizione.</p>
 
-            <h2 data-i18n="h2_pwa">4. Progressive Web App (PWA)</h2>
-            <p data-i18n="p_pwa">
-                Questa applicazione utilizza un Service Worker per consentire il funzionamento offline. I dati memorizzati nella cache del browser includono:
-            </p>
-            <ul>
-                <li data-i18n="li_html">File HTML, CSS e JavaScript dell'applicazione</li>
-                <li data-i18n="li_database">Database JSON delle autorità finanziarie</li>
-                <li data-i18n="li_images">Immagini e icone</li>
-            </ul>
-            <p data-i18n="p_cache">
-                Questi dati sono memorizzati <strong>localmente sul dispositivo dell'utente</strong> e possono essere eliminati in qualsiasi momento cancellando la cache del browser.
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">9. Segnalazione Errori</h2>
+            <p style="margin-bottom: 15px;">
+                Se riscontri errori nelle informazioni fornite, ti invitiamo a segnalarli a: <a href="mailto:lawyer@marcellostanca.it" style="color: #667eea; text-decoration: none;">lawyer@marcellostanca.it</a>. Faremo del nostro meglio per correggere le informazioni, ma non possiamo garantire tempi di risposta specifici.
             </p>
 
-            <h2 data-i18n="h2_cookies">5. Cookie e Tecnologie Simili</h2>
-            <p data-i18n="p_cookies">
-                Questa applicazione <strong>NON utilizza cookie</strong> per tracciare, profilare o memorizzare informazioni sugli utenti. L'unico storage utilizzato è il Service Worker cache, necessario per il funzionamento offline della PWA.
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">10. Modifiche ai Termini</h2>
+            <p style="margin-bottom: 15px;">
+                Ci riserviamo il diritto di modificare questi Termini di Servizio in qualsiasi momento. Le modifiche saranno pubblicate su questa pagina con aggiornamento della data. L'uso continuato dell'Applicazione dopo le modifiche costituisce accettazione dei nuovi termini.
             </p>
 
-            <h2 data-i18n="h2_thirdparty">6. Servizi di Terze Parti</h2>
-            <p data-i18n="p_thirdparty">
-                L'applicazione non integra servizi di analytics, advertising o social media tracking. Gli unici collegamenti a servizi esterni sono:
-            </p>
-            <ul>
-                <li data-i18n="li_authorities">Link diretti ai siti web ufficiali delle autorità finanziarie</li>
-                <li data-i18n="li_cdnlibs">Librerie CSS/JS caricate da CDN pubblici (nessun tracciamento)</li>
-            </ul>
-
-            <h2 data-i18n="h2_rights">7. Diritti degli Utenti (GDPR)</h2>
-            <p data-i18n="p_rights">
-                Poiché questa applicazione non raccoglie dati personali, non è necessario esercitare diritti GDPR come accesso, rettifica o cancellazione. Non essendoci dati personali trattati, non esistono dati da gestire.
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">11. Legge Applicabile e Giurisdizione</h2>
+            <p style="margin-bottom: 15px;">
+                Questi Termini di Servizio sono regolati dalla legge italiana. Per qualsiasi controversia derivante dall'uso dell'Applicazione, sarà competente il Foro di Firenze, Italia.
             </p>
 
-            <h2 data-i18n="h2_security">8. Sicurezza</h2>
-            <p data-i18n="p_security">
-                L'applicazione è servita tramite HTTPS (protocollo sicuro) da GitHub Pages. Non raccogliendo dati personali, non ci sono rischi di violazione di dati personali degli utenti.
-            </p>
-
-            <h2 data-i18n="h2_children">9. Minori</h2>
-            <p data-i18n="p_children">
-                Questa applicazione è accessibile a tutti, inclusi i minori di 16 anni, in quanto non raccoglie alcun dato personale.
-            </p>
-
-            <h2 data-i18n="h2_changes">10. Modifiche alla Privacy Policy</h2>
-            <p data-i18n="p_changes">
-                Eventuali modifiche a questa privacy policy saranno pubblicate su questa pagina con aggiornamento della data in alto.
-            </p>
-
-            <h2 data-i18n="h2_contact">11. Contatti</h2>
-            <p data-i18n="p_contact">
-                Per domande su questa privacy policy, contattare:
-            </p>
-            <div class="highlight">
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">12. Contatti</h2>
+            <p style="margin-bottom: 15px;">Per domande su questi Termini di Servizio o sull'Applicazione:</p>
+            <div style="background: #f0f4ff; padding: 20px; border-left: 4px solid #667eea; margin: 20px 0; border-radius: 5px;">
                 <p><strong>Avvocato Marcello Stanca</strong></p>
-                <p data-i18n="p_location">Firenze, Italia</p>
-                <p>Email: <a href="mailto:lawyer@marcellostanca.it">lawyer@marcellostanca.it</a></p>
-                <p>Web: <a href="https://avvstancamarcello.github.io/Financial-Authority-Database/" target="_blank">Database Autorità Finanziarie</a></p>
+                <p>Firenze, Italia</p>
+                <p>Email: <a href="mailto:lawyer@marcellostanca.it" style="color: #667eea; text-decoration: none;">lawyer@marcellostanca.it</a></p>
+                <p>Web: <a href="https://avvstancamarcello.github.io/Financial-Authority-Database/" target="_blank" style="color: #667eea; text-decoration: none;">Database Autorità Finanziarie</a></p>
             </div>
 
-            <h2 data-i18n="h2_compliance">12. Conformità Normativa</h2>
-            <p data-i18n="p_compliance">
-                Questa applicazione rispetta:
-            </p>
-            <ul>
-                <li data-i18n="li_gdpr"><strong>GDPR</strong> (Regolamento UE 2016/679) - Regolamento Generale sulla Protezione dei Dati</li>
-                <li data-i18n="li_italian">Codice Privacy Italiano (D.Lgs. 196/2003 e successive modifiche)</li>
-                <li data-i18n="li_eprivacy">Direttiva ePrivacy (2002/58/CE)</li>
-            </ul>
-            <p data-i18n="p_compliance2">
-                Non raccogliendo alcun dato personale, l'applicazione è pienamente conforme a tutte le normative sulla privacy senza necessità di ulteriori adempimenti.
+            <h2 style="color: #667eea; margin: 30px 0 15px 0; font-size: 1.6em; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px;">13. Privacy</h2>
+            <p style="margin-bottom: 15px;">
+                Per informazioni su come trattiamo (o meglio, NON trattiamo) i dati personali, consulta la nostra <a href="privacy.html" style="color: #667eea; text-decoration: none;">Privacy Policy</a>.
             </p>
 
-            <div class="highlight" style="margin-top: 40px;">
-                <p style="text-align: center; font-size: 1.1em;" data-i18n="p_summary">
-                    <strong>In sintesi:</strong> Usa questa applicazione con completa tranquillità. La tua privacy è totalmente protetta perché non raccogliamo alcun dato.
+            <div style="background: #f0f4ff; padding: 20px; border-left: 4px solid #667eea; margin: 40px 0 20px 0; border-radius: 5px;">
+                <p style="text-align: center; font-size: 1.1em;">
+                    <strong>Utilizzando questa applicazione, dichiari di aver letto, compreso e accettato questi Termini di Servizio.</strong>
                 </p>
             </div>
         </div>
 
-        <footer>
-            <p data-i18n="footer_copyright">© 2026 Avvocato Marcello Stanca - Firenze, Italia</p>
-            <p data-i18n="footer_rights">Tutti i diritti riservati</p>
+        <footer style="background: #2c3e50; color: white; text-align: center; padding: 30px;">
+            <p style="margin: 10px 0;">© 2026 Avvocato Marcello Stanca - Firenze, Italia</p>
+            <p style="margin: 10px 0;">Tutti i diritti riservati</p>
             <p style="margin-top: 20px;">
-                <a href="index.html" style="color: white; margin: 0 15px;" data-i18n="link_home">🏠 Home</a> | 
-                <a href="privacy.html" style="color: white; margin: 0 15px;" data-i18n="link_privacy">🔒 Privacy</a> | 
-                <a href="terms.html" style="color: white; margin: 0 15px;" data-i18n="link_terms">📋 Terms</a>
+                <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none;">🏠 Home</a> | 
+                <a href="privacy.html" style="color: white; margin: 0 15px; text-decoration: none;">🔒 Privacy</a> | 
+                <a href="terms.html" style="color: white; margin: 0 15px; text-decoration: underline;">📋 Terms</a>
             </p>
         </footer>
     </div>
-
-    <script>
-        const translations = {
-            it: {
-                title: "🔒 Privacy Policy",
-                subtitle: "Informativa sulla protezione dei dati personali",
-                lastUpdate: "Ultimo aggiornamento: 6 Gennaio 2026",
-                noDataCollection: "✅ QUESTA APPLICAZIONE NON RACCOGLIE, NON MEMORIZZA E NON CONDIVIDE ALCUN DATO PERSONALE DEGLI UTENTI",
-                h2_intro: "1. Introduzione",
-                p_intro: "Il Database Internazionale delle Autorità Finanziarie è un'applicazione web educativa e informativa creata da <strong>Avvocato Marcello Stanca</strong>, con sede a Firenze, Italia. Questa privacy policy spiega come vengono trattati i dati degli utenti che visitano questa applicazione.",
-                h2_data: "2. Dati Personali Raccolti",
-                p_data: "<strong>NESSUN DATO PERSONALE VIENE RACCOLTO.</strong> Questa applicazione è progettata per funzionare completamente senza richiedere, memorizzare o trasmettere alcuna informazione personale identificabile degli utenti.",
-                h3_notcollected: "Cosa NON raccogliamo:",
-                li_noname: "Nome, cognome o informazioni identificative",
-                li_noemail: "Indirizzi email o numeri di telefono",
-                li_noaddress: "Indirizzi fisici o di residenza",
-                li_nofinancial: "Dati finanziari o bancari",
-                li_noip: "Indirizzi IP o dati di geolocalizzazione",
-                li_nocookies: "Cookie di tracciamento o profilazione",
-                li_noanalytics: "Dati di navigazione tramite strumenti di analytics",
-                h2_tech: "3. Dati Tecnici",
-                p_tech: "L'applicazione utilizza tecnologie standard del web come HTML, CSS e JavaScript. Tutto il codice viene eseguito localmente nel browser dell'utente. Le uniche interazioni con server esterni sono:",
-                li_github: "Hosting su <strong>GitHub Pages</strong> (https://pages.github.com) - GitHub potrebbe raccogliere dati tecnici standard come descritto nella loro <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\" target=\"_blank\">Privacy Policy</a>",
-                li_cdn: "Caricamento di librerie CSS esterne (flag-icons, leaflet) da CDN pubblici",
-                h2_pwa: "4. Progressive Web App (PWA)",
-                p_pwa: "Questa applicazione utilizza un Service Worker per consentire il funzionamento offline. I dati memorizzati nella cache del browser includono:",
-                li_html: "File HTML, CSS e JavaScript dell'applicazione",
-                li_database: "Database JSON delle autorità finanziarie",
-                li_images: "Immagini e icone",
-                p_cache: "Questi dati sono memorizzati <strong>localmente sul dispositivo dell'utente</strong> e possono essere eliminati in qualsiasi momento cancellando la cache del browser.",
-                h2_cookies: "5. Cookie e Tecnologie Simili",
-                p_cookies: "Questa applicazione <strong>NON utilizza cookie</strong> per tracciare, profilare o memorizzare informazioni sugli utenti. L'unico storage utilizzato è il Service Worker cache, necessario per il funzionamento offline della PWA.",
-                h2_thirdparty: "6. Servizi di Terze Parti",
-                p_thirdparty: "L'applicazione non integra servizi di analytics, advertising o social media tracking. Gli unici collegamenti a servizi esterni sono:",
-                li_authorities: "Link diretti ai siti web ufficiali delle autorità finanziarie",
-                li_cdnlibs: "Librerie CSS/JS caricate da CDN pubblici (nessun tracciamento)",
-                h2_rights: "7. Diritti degli Utenti (GDPR)",
-                p_rights: "Poiché questa applicazione non raccoglie dati personali, non è necessario esercitare diritti GDPR come accesso, rettifica o cancellazione. Non essendoci dati personali trattati, non esistono dati da gestire.",
-                h2_security: "8. Sicurezza",
-                p_security: "L'applicazione è servita tramite HTTPS (protocollo sicuro) da GitHub Pages. Non raccogliendo dati personali, non ci sono rischi di violazione di dati personali degli utenti.",
-                h2_children: "9. Minori",
-                p_children: "Questa applicazione è accessibile a tutti, inclusi i minori di 16 anni, in quanto non raccoglie alcun dato personale.",
-                h2_changes: "10. Modifiche alla Privacy Policy",
-                p_changes: "Eventuali modifiche a questa privacy policy saranno pubblicate su questa pagina con aggiornamento della data in alto.",
-                h2_contact: "11. Contatti",
-                p_contact: "Per domande su questa privacy policy, contattare:",
-                p_location: "Firenze, Italia",
-                h2_compliance: "12. Conformità Normativa",
-                p_compliance: "Questa applicazione rispetta:",
-                li_gdpr: "<strong>GDPR</strong> (Regolamento UE 2016/679) - Regolamento Generale sulla Protezione dei Dati",
-                li_italian: "Codice Privacy Italiano (D.Lgs. 196/2003 e successive modifiche)",
-                li_eprivacy: "Direttiva ePrivacy (2002/58/CE)",
-                p_compliance2: "Non raccogliendo alcun dato personale, l'applicazione è pienamente conforme a tutte le normative sulla privacy senza necessità di ulteriori adempimenti.",
-                p_summary: "<strong>In sintesi:</strong> Usa questa applicazione con completa tranquillità. La tua privacy è totalmente protetta perché non raccogliamo alcun dato.",
-                footer_copyright: "© 2026 Avvocato Marcello Stanca - Firenze, Italia",
-                footer_rights: "Tutti i diritti riservati",
-                link_home: "🏠 Home",
-                link_privacy: "🔒 Privacy",
-                link_terms: "📋 Terms"
-            },
-            en: {
-                title: "🔒 Privacy Policy",
-                subtitle: "Information on personal data protection",
-                lastUpdate: "Last updated: January 6, 2026",
-                noDataCollection: "✅ THIS APPLICATION DOES NOT COLLECT, STORE OR SHARE ANY PERSONAL DATA OF USERS",
-                h2_intro: "1. Introduction",
-                p_intro: "The International Financial Authorities Database is an educational and informational web application created by <strong>Lawyer Marcello Stanca</strong>, based in Florence, Italy. This privacy policy explains how user data is handled when visiting this application.",
-                h2_data: "2. Personal Data Collected",
-                p_data: "<strong>NO PERSONAL DATA IS COLLECTED.</strong> This application is designed to operate completely without requiring, storing, or transmitting any personally identifiable information of users.",
-                h3_notcollected: "What we DO NOT collect:",
-                li_noname: "First name, last name, or identifying information",
-                li_noemail: "Email addresses or phone numbers",
-                li_noaddress: "Physical or residential addresses",
-                li_nofinancial: "Financial or banking data",
-                li_noip: "IP addresses or geolocation data",
-                li_nocookies: "Tracking or profiling cookies",
-                li_noanalytics: "Browsing data through analytics tools",
-                h2_tech: "3. Technical Data",
-                p_tech: "The application uses standard web technologies such as HTML, CSS, and JavaScript. All code runs locally in the user's browser. The only interactions with external servers are:",
-                li_github: "Hosting on <strong>GitHub Pages</strong> (https://pages.github.com) - GitHub may collect standard technical data as described in their <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\" target=\"_blank\">Privacy Policy</a>",
-                li_cdn: "Loading external CSS libraries (flag-icons, leaflet) from public CDNs",
-                h2_pwa: "4. Progressive Web App (PWA)",
-                p_pwa: "This application uses a Service Worker to enable offline functionality. Data stored in the browser cache includes:",
-                li_html: "HTML, CSS, and JavaScript files of the application",
-                li_database: "JSON database of financial authorities",
-                li_images: "Images and icons",
-                p_cache: "This data is stored <strong>locally on the user's device</strong> and can be deleted at any time by clearing the browser cache.",
-                h2_cookies: "5. Cookies and Similar Technologies",
-                p_cookies: "This application <strong>DOES NOT use cookies</strong> to track, profile, or store user information. The only storage used is the Service Worker cache, necessary for the PWA's offline functionality.",
-                h2_thirdparty: "6. Third-Party Services",
-                p_thirdparty: "The application does not integrate analytics, advertising, or social media tracking services. The only links to external services are:",
-                li_authorities: "Direct links to official websites of financial authorities",
-                li_cdnlibs: "CSS/JS libraries loaded from public CDNs (no tracking)",
-                h2_rights: "7. User Rights (GDPR)",
-                p_rights: "Since this application does not collect personal data, it is not necessary to exercise GDPR rights such as access, rectification, or deletion. Since no personal data is processed, there is no data to manage.",
-                h2_security: "8. Security",
-                p_security: "The application is served via HTTPS (secure protocol) from GitHub Pages. By not collecting personal data, there are no risks of personal data breaches.",
-                h2_children: "9. Minors",
-                p_children: "This application is accessible to everyone, including minors under 16 years of age, as it does not collect any personal data.",
-                h2_changes: "10. Changes to Privacy Policy",
-                p_changes: "Any changes to this privacy policy will be published on this page with an update to the date above.",
-                h2_contact: "11. Contact",
-                p_contact: "For questions about this privacy policy, contact:",
-                p_location: "Florence, Italy",
-                h2_compliance: "12. Regulatory Compliance",
-                p_compliance: "This application complies with:",
-                li_gdpr: "<strong>GDPR</strong> (EU Regulation 2016/679) - General Data Protection Regulation",
-                li_italian: "Italian Privacy Code (Legislative Decree 196/2003 and subsequent amendments)",
-                li_eprivacy: "ePrivacy Directive (2002/58/EC)",
-                p_compliance2: "By not collecting any personal data, the application fully complies with all privacy regulations without the need for further compliance measures.",
-                p_summary: "<strong>In summary:</strong> Use this application with complete peace of mind. Your privacy is fully protected because we do not collect any data.",
-                footer_copyright: "© 2026 Lawyer Marcello Stanca - Florence, Italy",
-                footer_rights: "All rights reserved",
-                link_home: "🏠 Home",
-                link_privacy: "🔒 Privacy",
-                link_terms: "📋 Terms"
-            },
-            fr: {
-                title: "🔒 Politique de Confidentialité",
-                subtitle: "Informations sur la protection des données personnelles",
-                lastUpdate: "Dernière mise à jour: 6 janvier 2026",
-                noDataCollection: "✅ CETTE APPLICATION NE COLLECTE, NE STOCKE ET NE PARTAGE AUCUNE DONNÉE PERSONNELLE DES UTILISATEURS",
-                h2_intro: "1. Introduction",
-                p_intro: "La Base de Données Internationale des Autorités Financières est une application web éducative et informative créée par <strong>l'Avocat Marcello Stanca</strong>, basé à Florence, Italie. Cette politique de confidentialité explique comment les données des utilisateurs sont traitées lorsqu'ils visitent cette application.",
-                h2_data: "2. Données Personnelles Collectées",
-                p_data: "<strong>AUCUNE DONNÉE PERSONNELLE N'EST COLLECTÉE.</strong> Cette application est conçue pour fonctionner entièrement sans exiger, stocker ou transmettre d'informations personnelles identifiables des utilisateurs.",
-                h3_notcollected: "Ce que nous NE collectons PAS:",
-                li_noname: "Nom, prénom ou informations d'identification",
-                li_noemail: "Adresses e-mail ou numéros de téléphone",
-                li_noaddress: "Adresses physiques ou résidentielles",
-                li_nofinancial: "Données financières ou bancaires",
-                li_noip: "Adresses IP ou données de géolocalisation",
-                li_nocookies: "Cookies de suivi ou de profilage",
-                li_noanalytics: "Données de navigation via des outils d'analyse",
-                h2_tech: "3. Données Techniques",
-                p_tech: "L'application utilise des technologies web standard telles que HTML, CSS et JavaScript. Tout le code s'exécute localement dans le navigateur de l'utilisateur. Les seules interactions avec des serveurs externes sont:",
-                li_github: "Hébergement sur <strong>GitHub Pages</strong> (https://pages.github.com) - GitHub peut collecter des données techniques standard comme décrit dans leur <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\" target=\"_blank\">Politique de Confidentialité</a>",
-                li_cdn: "Chargement de bibliothèques CSS externes (flag-icons, leaflet) depuis des CDN publics",
-                h2_pwa: "4. Application Web Progressive (PWA)",
-                p_pwa: "Cette application utilise un Service Worker pour permettre le fonctionnement hors ligne. Les données stockées dans le cache du navigateur incluent:",
-                li_html: "Fichiers HTML, CSS et JavaScript de l'application",
-                li_database: "Base de données JSON des autorités financières",
-                li_images: "Images et icônes",
-                p_cache: "Ces données sont stockées <strong>localement sur l'appareil de l'utilisateur</strong> et peuvent être supprimées à tout moment en vidant le cache du navigateur.",
-                h2_cookies: "5. Cookies et Technologies Similaires",
-                p_cookies: "Cette application <strong>N'utilise PAS de cookies</strong> pour suivre, profiler ou stocker des informations sur les utilisateurs. Le seul stockage utilisé est le cache du Service Worker, nécessaire pour le fonctionnement hors ligne de la PWA.",
-                h2_thirdparty: "6. Services Tiers",
-                p_thirdparty: "L'application n'intègre pas de services d'analyse, de publicité ou de suivi des médias sociaux. Les seuls liens vers des services externes sont:",
-                li_authorities: "Liens directs vers les sites web officiels des autorités financières",
-                li_cdnlibs: "Bibliothèques CSS/JS chargées depuis des CDN publics (aucun suivi)",
-                h2_rights: "7. Droits des Utilisateurs (RGPD)",
-                p_rights: "Puisque cette application ne collecte pas de données personnelles, il n'est pas nécessaire d'exercer des droits RGPD tels que l'accès, la rectification ou la suppression. En l'absence de données personnelles traitées, il n'y a pas de données à gérer.",
-                h2_security: "8. Sécurité",
-                p_security: "L'application est servie via HTTPS (protocole sécurisé) depuis GitHub Pages. En ne collectant pas de données personnelles, il n'y a aucun risque de violation de données personnelles des utilisateurs.",
-                h2_children: "9. Mineurs",
-                p_children: "Cette application est accessible à tous, y compris aux mineurs de moins de 16 ans, car elle ne collecte aucune donnée personnelle.",
-                h2_changes: "10. Modifications de la Politique de Confidentialité",
-                p_changes: "Toute modification de cette politique de confidentialité sera publiée sur cette page avec mise à jour de la date ci-dessus.",
-                h2_contact: "11. Contact",
-                p_contact: "Pour toute question concernant cette politique de confidentialité, contacter:",
-                p_location: "Florence, Italie",
-                h2_compliance: "12. Conformité Réglementaire",
-                p_compliance: "Cette application respecte:",
-                li_gdpr: "<strong>RGPD</strong> (Règlement UE 2016/679) - Règlement Général sur la Protection des Données",
-                li_italian: "Code de la Vie Privée Italien (Décret Législatif 196/2003 et modifications ultérieures)",
-                li_eprivacy: "Directive ePrivacy (2002/58/CE)",
-                p_compliance2: "En ne collectant aucune donnée personnelle, l'application est pleinement conforme à toutes les réglementations sur la confidentialité sans nécessité de mesures supplémentaires.",
-                p_summary: "<strong>En résumé:</strong> Utilisez cette application en toute tranquillité. Votre vie privée est totalement protégée car nous ne collectons aucune donnée.",
-                footer_copyright: "© 2026 Avocat Marcello Stanca - Florence, Italie",
-                footer_rights: "Tous droits réservés",
-                link_home: "🏠 Accueil",
-                link_privacy: "🔒 Confidentialité",
-                link_terms: "📋 Conditions"
-            },
-            de: {
-                title: "🔒 Datenschutzerklärung",
-                subtitle: "Informationen zum Schutz personenbezogener Daten",
-                lastUpdate: "Letzte Aktualisierung: 6. Januar 2026",
-                noDataCollection: "✅ DIESE ANWENDUNG SAMMELT, SPEICHERT ODER TEILT KEINE PERSÖNLICHEN DATEN DER BENUTZER",
-                h2_intro: "1. Einleitung",
-                p_intro: "Die Internationale Datenbank der Finanzbehörden ist eine pädagogische und informative Webanwendung, erstellt von <strong>Rechtsanwalt Marcello Stanca</strong> mit Sitz in Florenz, Italien. Diese Datenschutzerklärung erklärt, wie Benutzerdaten beim Besuch dieser Anwendung behandelt werden.",
-                h2_data: "2. Gesammelte Personenbezogene Daten",
-                p_data: "<strong>ES WERDEN KEINE PERSONENBEZOGENEN DATEN GESAMMELT.</strong> Diese Anwendung ist so konzipiert, dass sie vollständig ohne Anforderung, Speicherung oder Übertragung personenbezogener Informationen der Benutzer funktioniert.",
-                h3_notcollected: "Was wir NICHT sammeln:",
-                li_noname: "Vor- und Nachnamen oder identifizierende Informationen",
-                li_noemail: "E-Mail-Adressen oder Telefonnummern",
-                li_noaddress: "Physische oder Wohnadressen",
-                li_nofinancial: "Finanz- oder Bankdaten",
-                li_noip: "IP-Adressen oder Geolokalisierungsdaten",
-                li_nocookies: "Tracking- oder Profiling-Cookies",
-                li_noanalytics: "Navigationsdaten über Analysetools",
-                h2_tech: "3. Technische Daten",
-                p_tech: "Die Anwendung verwendet Standard-Webtechnologien wie HTML, CSS und JavaScript. Der gesamte Code wird lokal im Browser des Benutzers ausgeführt. Die einzigen Interaktionen mit externen Servern sind:",
-                li_github: "Hosting auf <strong>GitHub Pages</strong> (https://pages.github.com) - GitHub kann technische Standarddaten sammeln, wie in ihrer <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\" target=\"_blank\">Datenschutzerklärung</a> beschrieben",
-                li_cdn: "Laden externer CSS-Bibliotheken (flag-icons, leaflet) von öffentlichen CDNs",
-                h2_pwa: "4. Progressive Web App (PWA)",
-                p_pwa: "Diese Anwendung verwendet einen Service Worker, um Offline-Funktionalität zu ermöglichen. Im Browser-Cache gespeicherte Daten umfassen:",
-                li_html: "HTML-, CSS- und JavaScript-Dateien der Anwendung",
-                li_database: "JSON-Datenbank der Finanzbehörden",
-                li_images: "Bilder und Icons",
-                p_cache: "Diese Daten werden <strong>lokal auf dem Gerät des Benutzers</strong> gespeichert und können jederzeit durch Löschen des Browser-Cache entfernt werden.",
-                h2_cookies: "5. Cookies und Ähnliche Technologien",
-                p_cookies: "Diese Anwendung <strong>verwendet KEINE Cookies</strong> zum Tracking, Profiling oder Speichern von Benutzerinformationen. Der einzige verwendete Speicher ist der Service Worker Cache, der für die Offline-Funktionalität der PWA erforderlich ist.",
-                h2_thirdparty: "6. Drittanbieterdienste",
-                p_thirdparty: "Die Anwendung integriert keine Analyse-, Werbe- oder Social-Media-Tracking-Dienste. Die einzigen Links zu externen Diensten sind:",
-                li_authorities: "Direkte Links zu offiziellen Websites der Finanzbehörden",
-                li_cdnlibs: "CSS/JS-Bibliotheken von öffentlichen CDNs geladen (kein Tracking)",
-                h2_rights: "7. Benutzerrechte (DSGVO)",
-                p_rights: "Da diese Anwendung keine personenbezogenen Daten sammelt, ist es nicht erforderlich, DSGVO-Rechte wie Zugang, Berichtigung oder Löschung auszuüben. Da keine personenbezogenen Daten verarbeitet werden, gibt es keine Daten zu verwalten.",
-                h2_security: "8. Sicherheit",
-                p_security: "Die Anwendung wird über HTTPS (sicheres Protokoll) von GitHub Pages bereitgestellt. Durch das Nichtsammeln personenbezogener Daten besteht kein Risiko von Datenschutzverletzungen.",
-                h2_children: "9. Minderjährige",
-                p_children: "Diese Anwendung ist für alle zugänglich, einschließlich Minderjähriger unter 16 Jahren, da sie keine personenbezogenen Daten sammelt.",
-                h2_changes: "10. Änderungen der Datenschutzerklärung",
-                p_changes: "Änderungen an dieser Datenschutzerklärung werden auf dieser Seite mit Aktualisierung des oben genannten Datums veröffentlicht.",
-                h2_contact: "11. Kontakt",
-                p_contact: "Bei Fragen zu dieser Datenschutzerklärung wenden Sie sich an:",
-                p_location: "Florenz, Italien",
-                h2_compliance: "12. Rechtliche Compliance",
-                p_compliance: "Diese Anwendung entspricht:",
-                li_gdpr: "<strong>DSGVO</strong> (EU-Verordnung 2016/679) - Datenschutz-Grundverordnung",
-                li_italian: "Italienischer Datenschutzkodex (Gesetzesdekret 196/2003 und spätere Änderungen)",
-                li_eprivacy: "ePrivacy-Richtlinie (2002/58/EG)",
-                p_compliance2: "Durch das Nichtsammeln personenbezogener Daten entspricht die Anwendung vollständig allen Datenschutzbestimmungen ohne weitere Compliance-Maßnahmen.",
-                p_summary: "<strong>Zusammenfassend:</strong> Verwenden Sie diese Anwendung mit völliger Sicherheit. Ihre Privatsphäre ist vollständig geschützt, da wir keine Daten sammeln.",
-                footer_copyright: "© 2026 Rechtsanwalt Marcello Stanca - Florenz, Italien",
-                footer_rights: "Alle Rechte vorbehalten",
-                link_home: "🏠 Startseite",
-                link_privacy: "🔒 Datenschutz",
-                link_terms: "📋 Bedingungen"
-            },
-            es: {
-                title: "🔒 Política de Privacidad",
-                subtitle: "Información sobre la protección de datos personales",
-                lastUpdate: "Última actualización: 6 de enero de 2026",
-                noDataCollection: "✅ ESTA APLICACIÓN NO RECOPILA, NO ALMACENA Y NO COMPARTE NINGÚN DATO PERSONAL DE LOS USUARIOS",
-                h2_intro: "1. Introducción",
-                p_intro: "La Base de Datos Internacional de Autoridades Financieras es una aplicación web educativa e informativa creada por <strong>el Abogado Marcello Stanca</strong>, con sede en Florencia, Italia. Esta política de privacidad explica cómo se tratan los datos de los usuarios que visitan esta aplicación.",
-                h2_data: "2. Datos Personales Recopilados",
-                p_data: "<strong>NO SE RECOPILAN DATOS PERSONALES.</strong> Esta aplicación está diseñada para funcionar completamente sin requerir, almacenar o transmitir información personal identificable de los usuarios.",
-                h3_notcollected: "Lo que NO recopilamos:",
-                li_noname: "Nombre, apellidos o información identificativa",
-                li_noemail: "Direcciones de correo electrónico o números de teléfono",
-                li_noaddress: "Direcciones físicas o de residencia",
-                li_nofinancial: "Datos financieros o bancarios",
-                li_noip: "Direcciones IP o datos de geolocalización",
-                li_nocookies: "Cookies de seguimiento o perfilado",
-                li_noanalytics: "Datos de navegación mediante herramientas de análisis",
-                h2_tech: "3. Datos Técnicos",
-                p_tech: "La aplicación utiliza tecnologías web estándar como HTML, CSS y JavaScript. Todo el código se ejecuta localmente en el navegador del usuario. Las únicas interacciones con servidores externos son:",
-                li_github: "Alojamiento en <strong>GitHub Pages</strong> (https://pages.github.com) - GitHub puede recopilar datos técnicos estándar como se describe en su <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\" target=\"_blank\">Política de Privacidad</a>",
-                li_cdn: "Carga de bibliotecas CSS externas (flag-icons, leaflet) desde CDN públicos",
-                h2_pwa: "4. Aplicación Web Progresiva (PWA)",
-                p_pwa: "Esta aplicación utiliza un Service Worker para permitir la funcionalidad sin conexión. Los datos almacenados en la caché del navegador incluyen:",
-                li_html: "Archivos HTML, CSS y JavaScript de la aplicación",
-                li_database: "Base de datos JSON de autoridades financieras",
-                li_images: "Imágenes e iconos",
-                p_cache: "Estos datos se almacenan <strong>localmente en el dispositivo del usuario</strong> y pueden eliminarse en cualquier momento borrando la caché del navegador.",
-                h2_cookies: "5. Cookies y Tecnologías Similares",
-                p_cookies: "Esta aplicación <strong>NO utiliza cookies</strong> para rastrear, perfilar o almacenar información de los usuarios. El único almacenamiento utilizado es la caché del Service Worker, necesaria para la funcionalidad sin conexión de la PWA.",
-                h2_thirdparty: "6. Servicios de Terceros",
-                p_thirdparty: "La aplicación no integra servicios de análisis, publicidad o seguimiento de redes sociales. Los únicos enlaces a servicios externos son:",
-                li_authorities: "Enlaces directos a los sitios web oficiales de las autoridades financieras",
-                li_cdnlibs: "Bibliotecas CSS/JS cargadas desde CDN públicos (sin seguimiento)",
-                h2_rights: "7. Derechos de los Usuarios (RGPD)",
-                p_rights: "Dado que esta aplicación no recopila datos personales, no es necesario ejercer derechos RGPD como acceso, rectificación o eliminación. Al no procesarse datos personales, no hay datos que gestionar.",
-                h2_security: "8. Seguridad",
-                p_security: "La aplicación se sirve a través de HTTPS (protocolo seguro) desde GitHub Pages. Al no recopilar datos personales, no hay riesgos de violación de datos personales de los usuarios.",
-                h2_children: "9. Menores",
-                p_children: "Esta aplicación es accesible para todos, incluidos los menores de 16 años, ya que no recopila ningún dato personal.",
-                h2_changes: "10. Cambios en la Política de Privacidad",
-                p_changes: "Cualquier cambio en esta política de privacidad se publicará en esta página con actualización de la fecha anterior.",
-                h2_contact: "11. Contacto",
-                p_contact: "Para preguntas sobre esta política de privacidad, contactar:",
-                p_location: "Florencia, Italia",
-                h2_compliance: "12. Cumplimiento Normativo",
-                p_compliance: "Esta aplicación cumple con:",
-                li_gdpr: "<strong>RGPD</strong> (Reglamento UE 2016/679) - Reglamento General de Protección de Datos",
-                li_italian: "Código de Privacidad Italiano (Decreto Legislativo 196/2003 y modificaciones posteriores)",
-                li_eprivacy: "Directiva ePrivacy (2002/58/CE)",
-                p_compliance2: "Al no recopilar ningún dato personal, la aplicación cumple plenamente con todas las regulaciones de privacidad sin necesidad de medidas adicionales.",
-                p_summary: "<strong>En resumen:</strong> Use esta aplicación con total tranquilidad. Su privacidad está completamente protegida porque no recopilamos ningún dato.",
-                footer_copyright: "© 2026 Abogado Marcello Stanca - Florencia, Italia",
-                footer_rights: "Todos los derechos reservados",
-                link_home: "🏠 Inicio",
-                link_privacy: "🔒 Privacidad",
-                link_terms: "📋 Términos"
-            }
-        };
-
-        let currentLanguage = 'it';
-
-        function changeLanguage(lang) {
-            currentLanguage = lang;
-            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-
-            document.querySelectorAll('[data-i18n]').forEach(element => {
-                const key = element.getAttribute('data-i18n');
-                if (translations[lang] && translations[lang][key]) {
-                    element.innerHTML = translations[lang][key];
-                }
-            });
-        }
-    </script>
 </body>
 </html>
